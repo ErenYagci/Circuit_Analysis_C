@@ -1,10 +1,13 @@
 # Circuit Analysis Basics in C
 
-This repository contains fundamental electric circuit analysis calculations implemented in C. It serves as a foundational reference for basic circuit laws and parameters.
+I created this repository while learning both the fundamentals of **Electric Circuit Theory** and programming in **C**. My goal is to implement standard circuit calculations step by step into simple, standalone C scripts and practice using Git/GitHub along the way.
 
-# Contents
+## What's Inside?
 
--Ohms_Law.c: Demonstrates Ohm's Law (V = I*R) to compute voltage across a resistor.
--Power_Calc.c: Calculates electric power dissipation using voltage, current, and resistance relations.
--Voltage_Divider.c: Implements the standard voltage divider rule across resistive branches.
--Equivalent_Resistance.c: Solves for equivalent resistances in series and parallel configurations.
+Here are the basic scripts I have implemented so far:
+
+* **`Ohms_Law.c`**: Calculates voltage using Ohm's Law ($V = I \cdot R$) given current and resistance.
+* **`Power_Calc.c`**: Finds the dissipated power ($P = V \cdot I$) across a component.
+* **`Voltage_Divider.c`**: Solves the voltage drop across a specific resistor in a two-resistor divider circuit.
+* **`Equivalent_Resistance.c`**: Calculates total equivalent resistance ($R_{eq}$) for resistors connected in series and in parallel.
+
